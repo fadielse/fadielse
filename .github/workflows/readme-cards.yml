@@ -30,7 +30,7 @@ jobs:
           ref: master
           path: .grs
 
-      - uses: actions/setup-node@v5
+      - uses: actions/setup-node@v7
         with:
           node-version: 22
 
