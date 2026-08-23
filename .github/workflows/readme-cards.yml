@@ -21,16 +21,16 @@ jobs:
   render:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - name: Check out github-readme-stats
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           repository: fadielse/github-readme-stats
           ref: master
           path: .grs
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
           node-version: 22
 
